@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+
+p{
+    background-color: aqua;
+}
+
+img{
+    height: 400px;
+    width: auto;
+    position: absolute;
+}
+
+#img1{
+    top: 0;
+}
+
+#img2{
+    top: 50%;
+}
+
+#img3{
+    top: 100%;
+}
