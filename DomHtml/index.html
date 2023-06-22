@@ -4,10 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom html</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="light">
     <p id="demo">kaminariSora</p>
     <p>CSS basic</p>
+    <button onclick="LightMode()">LightMode</button>
+    <button onclick="DarkMode()">DarkMode</button>
+    <h1 style="text-align: center;">OR</h1>
+    <button onclick="toggleStyle()">Switch Mode</button>
+    <hr><hr>
+    <ul id="menu">
+        <li id="item">Item 0</li>
+    </ul>
+    <button onclick="addElement()">ADD ITEM</button>
+    <button onclick="deleteElement()">DELETE ITEM</button>
     <script src="script.js"></script>
 </body>
 </html>
